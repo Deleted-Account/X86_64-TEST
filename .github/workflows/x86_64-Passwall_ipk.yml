@@ -31,7 +31,7 @@ env:
   UPLOAD_FIRMWARE: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FILE_NAME: OpenWRT-Redmi~AX6
+  FILE_NAME: x86_64-Passwall_ipk
 
 jobs:
   build:

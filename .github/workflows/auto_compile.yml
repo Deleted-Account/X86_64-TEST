@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: x86_64-Passwall_ipk
+name: x86_64-Passwall_ipk__autocompile
 
 on:
   repository_dispatch:

@@ -26,6 +26,18 @@ sed -i 's/$1$WplwC1t5$HBAtVXABp7XbvVjG4193B.:18753:0:99999:7/:0:0:99999:7/g' pac
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 
+# # ServerChan
+# rm -rf package/luci-app-serverchan
+# rm -rf package/lean/luci-app-serverchan
+
+# git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+
+
+# # 添加smartdns
+# git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+# git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
+
 # Passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev package/shadowsocksr-libev

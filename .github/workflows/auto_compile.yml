@@ -18,13 +18,11 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  schedule:
-    - cron: 15 20 1,6,11,16,21,26 * *
+#   schedule:
+#     - cron: 15 20 1,6,11,16,21,26 * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  # REPO_URL: https://github.com/Lienol/openwrt
-  # REPO_URL: https://github.com/Boos4721/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86_64-Passwall_ipk.config

@@ -32,7 +32,7 @@ env:
   UPLOAD_FIRMWARE: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FILE_NAME: upstream_ImmortalWRT_5.4__Passwall_ipk
+  FILE_NAME: upstream_ImmortalWRT__autocompile
 
 jobs:
   build:

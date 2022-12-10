@@ -1,4 +1,4 @@
-12-07,2022
+12-07, 2022
 
 Switch upstream to ImmortalWRT. Kernal is 5.4.  
 

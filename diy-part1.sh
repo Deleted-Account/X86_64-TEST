@@ -19,3 +19,7 @@
 
 # Passwall LuCI
 # echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
+
+
+# AList
+echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default

@@ -47,8 +47,8 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 
 
 # AList
-svn co https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/luci-app-alist
-svn co https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
+# svn co https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/luci-app-alist
+# svn co https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 
 # Passwall

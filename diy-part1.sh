@@ -22,4 +22,4 @@
 
 
 # AList
-echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default
+# echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default

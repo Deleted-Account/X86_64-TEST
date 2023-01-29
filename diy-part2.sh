@@ -46,6 +46,11 @@ git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 
+# AList
+svn co https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/luci-app-alist
+svn co https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
+
+
 # Passwall
 rm -rf package/luci-app-passwall
 rm -rf package/lean/luci-app-passwall

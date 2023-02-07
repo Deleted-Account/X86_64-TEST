@@ -51,6 +51,10 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 # svn co https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 
+# Add theme(s)
+git clone https://github.com/sdf8057/luci-theme-design package/luci-theme-design
+
+
 # Passwall
 rm -rf package/luci-app-passwall
 rm -rf package/lean/luci-app-passwall

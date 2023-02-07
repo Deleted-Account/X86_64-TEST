@@ -42,7 +42,7 @@ rm -rf package/smartdns
 rm -rf package/lean/smartdns
 rm -rf feeds/luci/applications/smartdns
 
-git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 
@@ -52,7 +52,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 
 
 # Add theme(s)
-git clone https://github.com/sdf8057/luci-theme-design package/luci-theme-design
+git clone https://github.com/sdf8057/luci-theme-design.git package/luci-theme-design
 
 
 # Passwall

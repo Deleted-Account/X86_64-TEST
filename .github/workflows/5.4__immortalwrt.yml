@@ -168,7 +168,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: OpenWRT-Redmi-AX6 🚀 | 自动编译 / ${{ env.DATE1 }}
+        name: 去Action下载 | 自动编译 / ${{ env.DATE1 }}
         tag_name: ${{ env.RELEASE_TAG }}
         body: |
             ${{ env.useVersionInfo }}

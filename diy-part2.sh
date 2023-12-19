@@ -65,7 +65,14 @@ rm -rf feeds/luci/applications/luci-app-passwall
 # svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs package/simple-obfs
 # svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
 
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/shadowsocksr-libev package/shadowsocksr-libev
-svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/simple-obfs package/simple-obfs
-svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/tcping package/tcping
+# svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+# svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/shadowsocksr-libev package/shadowsocksr-libev
+# svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/simple-obfs package/simple-obfs
+# svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/tcping package/tcping
+
+# PassWall  
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git passwall_packages
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git luci-passwall
+
+# PassWall2
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git luci-passwall2
